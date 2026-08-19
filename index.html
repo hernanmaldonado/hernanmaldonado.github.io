@@ -24,12 +24,12 @@
 
   <!-- Put your site title here -->
   <title>
-    Ernie Maldonado | ML Engineer and data scientist based in Tampa, Florida.
+    Ernie Maldonado | Fraud Detection &amp; Financial Crime ML Engineer | Tampa, FL
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
+  <meta name="description" content="Data Engineer & ML Specialist with 10+ years building production fraud detection, sanctions screening, and cybersecurity systems at Citigroup, Bank of America, and Certegy/Fiserv.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="Ernie Maldonado" content="machine learning, deep learning, NLP, Statistics, Python, R, Big data, tensorflow, torch, scilkit-learn" />
+  <meta name="Ernie Maldonado" content="fraud detection, financial crime, sanctions screening, AML, machine learning, data engineering, big data, Hadoop, PySpark, XGBoost, Python, SQL, cybersecurity, insider threat" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -41,6 +41,7 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
           <!--li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
           <li class="nav__item">
@@ -59,20 +60,88 @@
           <span>Ernie Maldonado</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Machine Learning Engineer and Data Scientist.</p>
-		<p>Based in Tampa, Florida.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Data Engineer &amp; ML Specialist &mdash; Fraud Detection, Financial Crime, and Cybersecurity.</p>
+		<p>10+ years building production ML and big data systems at Citigroup, Bank of America, and Certegy/Fiserv. Based in Tampa, Florida.</p>
+        <div class="header__btns">
+          <a href="#experience" class="btn btn--outline">Experience</a>
+          <a href="#work" class="btn btn--outline">Projects</a>
+          <a href="#about" class="btn btn--outline">About</a>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
       </div>
     </div>
   </header>
 
   <main role="main">
 
+    <!-- ***** Experience ***** -->
+
+    <section class="experience" id="experience">
+      <div class="row">
+        <h2>Experience</h2>
+        <div class="experience__list">
+
+          <div class="experience__item">
+            <div class="experience__header">
+              <h3>Internal Fraud Engineer</h3>
+              <span class="experience__meta">Citigroup &middot; Sep 2024 &ndash; Present</span>
+            </div>
+            <p>
+              Mine Hadoop-scale transaction and behavioral data to surface fraud patterns, translating findings
+              into PySpark/Hive detection rules for anomalous velocity, high-risk access, and suspicious vendors.
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <div class="experience__header">
+              <h3>Sanctions Machine Learning Engineer</h3>
+              <span class="experience__meta">Citigroup &middot; May 2022 &ndash; Oct 2023</span>
+            </div>
+            <p>
+              Built end-to-end NLP pipelines (Random Forest, Gradient Boosting, XGBoost) that automated 500K
+              monthly sanctions alerts. Cut manual review volume 50% by catching a duplicate internal screening
+              process. Authored Model Risk Management documentation for OCC 2011-12 / SR 11-7 compliance.
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <div class="experience__header">
+              <h3>Data Scientist, Fraud Detection</h3>
+              <span class="experience__meta">Certegy Payments (Fiserv) &middot; May 2021 &ndash; Apr 2022</span>
+            </div>
+            <p>
+              Doubled check-fraud detection rate for a major retail client using Random Forest, Gradient Boosting,
+              and Logistic Regression &mdash; raising the KS statistic from 0.05&ndash;0.3 to 0.6&ndash;0.8.
+              Architected the full pipeline from Oracle SQL feature engineering through real-time AWS model serving.
+            </p>
+          </div>
+
+          <div class="experience__item">
+            <div class="experience__header">
+              <h3>Cybersecurity Big Data &amp; ML Engineer</h3>
+              <span class="experience__meta">Citigroup &middot; Apr 2018 &ndash; Feb 2021</span>
+            </div>
+            <p>
+              Built a production insider-threat anomaly-detection system from scratch, monitoring 300K employees
+              across 5TB of weekly data using peer-normalized behavioral metrics and k-means clustering. Engineered
+              ingestion pipelines for 12+ sources into a 270TB Hadoop cluster.
+            </p>
+          </div>
+
+        </div>
+        <a href="./extras/HernanErnieMaldonado2026.pdf" target="_blank" class="btn">Full Resume</a>
+      </div>
+    </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
         <h2>My Work</h2>
+        <p class="work__intro">
+          Self-directed projects I built to go deeper on the ML deployment lifecycle and fraud modeling
+          techniques I use professionally.
+        </p>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -230,10 +299,16 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Dynamic and effective Machine Learning & Big Data Engineer with a strong background in mathematics, statistics, computer science and economics. 
-			  Experienced in classification models with tabular data both on small datasets as well as in big data datasets. 
-			  I have also built regression models for continuous data and time series models for time dependent data. 
-			  Please check out my projects and my resume and reach out if would like to start a conversation. 
+              I'm a data engineer and ML specialist with 10+ years building production fraud detection, sanctions
+              screening, and insider-threat systems for financial institutions &mdash; most recently at Citigroup,
+              with prior roles at Bank of America and Certegy/Fiserv. My background spans computational mathematics,
+              economics, and public policy (three graduate degrees), which is part of why I care as much about the
+              compliance and risk story behind a model as I do about the metrics.
+            </p>
+            <p>
+              I'm currently pursuing AWS certification to round out my cloud data engineering skills, and I'm
+              looking for a full-time Data Engineering, Machine Learning, or Data Science role &mdash; ideally one
+              focused on fraud, financial crime, or cybersecurity.
             </p>
             <!-- Provide a link to your resume -->
             <a href="./extras/HernanErnieMaldonado2026.pdf" target="_blank" download="HernanErnieMaldonadoResume" class="btn">My Resume</a>
@@ -257,13 +332,17 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
+          I'm currently looking for full-time opportunities in Data Engineering, Machine Learning, and Data
+          Science &mdash; particularly in fraud detection, financial crime, or cybersecurity.
+        </p>
+        <p>
 		<ul>
-		  <li>Looking for an experienced Machine Learning engineer to advance your team or business?</li>
-		  <li>Looking for a Machine Learning and Data Consultant?</li>
-		  <li>Do you have a project and want me to be a part of it?</li>
+		  <li>Hiring for a data engineering, ML engineering, or data science role?</li>
+		  <li>Want to talk through my background in fraud and financial crime analytics?</li>
+		  <li>Think I'd be a fit for something on your team?</li>
 		</ul>  
         </p>
-          <p>Reach out via an email!</p>
+          <p>I'd love to hear from you.</p>
         <!-- Replace the email with yours -->
         <a href="mailto:ernie.maldonado.data@gmail.com" class="btn">Email Ernie!</a>
       </div>
