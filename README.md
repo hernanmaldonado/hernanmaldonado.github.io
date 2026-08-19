@@ -1,6 +1,6 @@
 ### Hi, I'm Ernie 👋
 
-ML engineer / data scientist focused on **fraud detection, sanctions screening, and financial-crime analytics**, with a background spanning banking and payments risk teams. Master's in Public Policy with graduate training in economics and statistics.
+ML engineer / data scientist focused on **fraud detection, sanctions screening, and financial-crime analytics**, with a background spanning banking and payments risk teams. Master's in Computational Mathematics, Public Policy and Economics.
 
 **What I work on:**
 - Applied ML for fraud, anomaly detection, and transaction risk scoring
